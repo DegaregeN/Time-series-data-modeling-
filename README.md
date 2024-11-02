@@ -1,17 +1,28 @@
 # Time series data modeling
 
 Time_series_data_modeling/
+
 ├── data/
+
 │   ├── raw/                      # Raw data files (e.g., historical oil prices)
+
 │   ├── processed/                # Processed data ready for analysis
-│   ├── external/                 # External data sources (e.g., economic indicators)
+
+│   ├── external/                 # External data sources 
+
 │   └── README.md                 # Description of data files and sources
 │
+
 ├── notebooks/
+
 │   ├── 01-data-preprocessing.ipynb      # Data cleaning and preprocessing steps
+
 │   ├── 02-exploratory-data-analysis.ipynb # EDA with visualizations
+
 │   ├── 03-time-series-analysis.ipynb      # Time series modeling (ARIMA, GARCH)
+
 │   ├── 04-advanced-models.ipynb           # Advanced models (VAR, LSTM)
+
 │   └── README.md                         # Overview of notebooks
 │
 ├── src/                           # Source code for data preprocessing, feature engineering, and modeling
