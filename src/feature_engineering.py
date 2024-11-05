@@ -3,7 +3,7 @@
 import pandas as pd
 
 def add_features(input_path, output_path):
-    data = pd.read_csv(input_path, parse_dates=['date'])
+    data = pd.read_csv(input_path, parse_dates=['DATE'])
     data['Price_Change'] = data['Price'].pct_change()
     data['Rolling_Mean'] = data['Price'].rolling(window=30).mean()
     data['Rolling_Std'] = data['Price'].rolling(window=30).std()

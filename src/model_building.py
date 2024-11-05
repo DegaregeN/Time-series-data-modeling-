@@ -18,6 +18,6 @@ def train_garch(data):
 
 # Example usage
 if __name__ == '__main__':
-    data = pd.read_csv('../data/processed/feature_data.csv', parse_dates=['Date'])
+    data = pd.read_csv('C:\\Users\\1221\\Desktop\\Acadamy AIM 2\\Time-series-data-modeling-\\data\\processed\\processed_brent_oil_prices.csv', parse_dates=['DATE'])
     train_arima(data)
     train_garch(data)
